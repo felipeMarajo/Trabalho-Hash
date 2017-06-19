@@ -104,11 +104,6 @@ int insereHash(Hash *ha, int valor){
 		}
 
 		if(ha->lista[pos]->profundidadeLocal == ha->profundidade){
-			// expandir hash hash
-			// redistribuir os endereços
-			// limpar bucket
-			// criar novo bucket
-			// substituir um dos endereçoes de bucket
 
 			int NConexoes;
 			Buckets* endBuckets[exponencial(2,ha->profundidade)];
